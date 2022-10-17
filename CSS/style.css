@@ -1,6 +1,5 @@
 .navigation{
     background-color: black;
-    text-;
 }
 .inline-block {
     display: inline-block;
@@ -8,7 +7,10 @@
 }
 .logo {
    width: 23%; 
-   padding: 1%;
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
    text-align: center;
 }
 
@@ -17,14 +19,20 @@ nav {
     padding: 1%;
 }
 
+
 header {
 color: white;
-
 }
 
 ul{
 width: 50%;
 margin-left: auto;
+}
+
+#heroGrid{
+grid-template-columns: 50% 50%;
+grid-template-areas:
+"heroImg content"
 }
 
 .heroImg {
