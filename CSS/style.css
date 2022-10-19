@@ -41,6 +41,10 @@ justify-content: center;
 padding: 15px;
 }
 
+.heroGrid {
+    display: flex;
+}
+
 .heroImg {
     height: 500px;
     padding: 3%;
