@@ -53,9 +53,10 @@ padding: 15px;
 }
 
 .content {
+    display: flex;
     height: 500px;
     padding: 3%;
-    width:40%;
+    width: 45px;%;
     margin: 0 auto;
     justify-content: right;
 }
